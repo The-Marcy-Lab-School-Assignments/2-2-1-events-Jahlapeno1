@@ -1,4 +1,5 @@
 const incrementButton = () => {
+  /** FEEDBACK: Do we need to redeclare the countButton here? */
   let countButton = document.querySelector("#add-one")
   let counter = document.querySelector("#results").textContent
   // console.log(counter)
